@@ -9,6 +9,7 @@ import {
 	underlined
 } from "@vangware/forcli";
 import boxen from "boxen";
+import clear from "clear";
 
 const link = mix([blueText, underlined]);
 const name = mix([bold, redText]);
@@ -24,4 +25,7 @@ Check my website to contact me!
 ${link("https://lshi.ru/")}
 `;
 
-export default console.log(boxen(message, { float: "center", padding: 1 }));
+export default [
+	clear(),
+	console.log(boxen(message, { float: "center", padding: 1 }))
+];

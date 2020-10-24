@@ -1,7 +1,9 @@
 dependencies:
   '@vangware/forcli': 1.1.12
   boxen: 4.2.0
+  clear: 0.1.0
 devDependencies:
+  '@types/clear': 0.1.0
   '@types/eslint': 7.2.4
   '@types/node': 14.14.2
   '@types/prettier': 2.1.5
@@ -84,6 +86,10 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
+  /@types/clear/0.1.0:
+    dev: true
+    resolution:
+      integrity: sha512-b2VgNzu3BxxM2nGhZSMzkiaTaCClevKkBCtgpV2Al0eGaEeQgTk5qHedzNxi/SgsvmDbqxWKDAIrxZNVKyDCXw==
   /@types/eslint/7.2.4:
     dependencies:
       '@types/estree': 0.0.45
@@ -476,6 +482,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
+  /clear/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-qMjRnoL+JDPJHeLePZJuao6+8orzHMGP04A8CdwCNsKhRbOnKRjefxONR7bwILT3MHecxKBjHkKL/tkZ8r4Uzw==
   /cli-boxes/2.2.1:
     dev: false
     engines:
@@ -2171,6 +2181,7 @@ packages:
     resolution:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 specifiers:
+  '@types/clear': ^0.1.0
   '@types/eslint': ^7.2.4
   '@types/node': ^14.14.2
   '@types/prettier': ^2.1.5
@@ -2179,6 +2190,7 @@ specifiers:
   '@vangware/base': ^3.0.3
   '@vangware/forcli': ^1.1.12
   boxen: ^4.2.0
+  clear: ^0.1.0
   eslint: ^7.12.0
   eslint-config-prettier: ^6.14.0
   eslint-import-resolver-node: ^0.3.4
