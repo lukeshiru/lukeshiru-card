@@ -1,12 +1,13 @@
 {
   "name": "lukeshiru-card",
   "description": "Simple presentation card to be show in the CLI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Lucas Ciruzzi",
     "email": "hi@lshi.ru",
     "url": "https://lshi.ru"
   },
+  "bin": "./dist/index.js",
   "bugs": {
     "url": "https://github.com/lukeshiru/lukeshiru-card/issues"
   },
