@@ -13,12 +13,13 @@ import clear from "clear";
 
 const link = mix([blueText, underlined]);
 const name = mix([bold, redText]);
+const USA = `${redText("U")}${blueText("S")}A`;
 
 const message = `
-✨ Hi there! ✨
+Hi there!
 
 I'm ${name("Lucas")}, a Software Engineer,
-born in ${cyanText("Argentina")} and living in ${redText("U")}${blueText("S")}A.
+born in ${cyanText("Argentina")} and living in the the ${USA}.
 
 Check my website to contact me!
 
