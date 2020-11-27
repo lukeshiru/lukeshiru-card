@@ -1,7 +1,7 @@
 {
   "name": "lukeshiru-card",
   "description": "Simple CLI presentation card",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Lucas Ciruzzi",
     "email": "hi@lshi.ru",
@@ -12,7 +12,7 @@
     "url": "https://github.com/lukeshiru/lukeshiru-card/issues"
   },
   "dependencies": {
-    "@vangware/forcli": "^1.1.16",
+    "@vangware/forcli": "^1.1.17",
     "boxen": "^4.2.0",
     "clear": "^0.1.0"
   },
