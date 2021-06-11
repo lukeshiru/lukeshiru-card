@@ -1,25 +1,25 @@
 #!/usr/bin/env node
 
 import {
-	blueText,
 	bold,
-	cyanText,
+	foregroundBlue,
+	foregroundCyan,
+	foregroundRed,
 	mix,
-	redText,
 	underlined
-} from "@vangware/forcli";
+} from "@vangware/ansi";
 import boxen from "boxen";
 import clear from "clear";
 
-const link = mix([blueText, underlined]);
-const name = mix([bold, redText]);
-const USA = `${redText("U")}${blueText("S")}A`;
+const link = mix([foregroundBlue, underlined]);
+const name = mix([bold, foregroundRed]);
+const USA = `${foregroundRed("U")}${foregroundBlue("S")}A`;
 
 const message = `
 Hi there!
 
 I'm ${name("Lucas")}, a Software Engineer,
-born in ${cyanText("Argentina")} and living in ${USA}.
+born in ${foregroundCyan("Argentina")} and living in ${USA}.
 
 Check my website to contact me!
 
